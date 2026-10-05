@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="players">
+        <div>
+            <label for="player1">Player 1 (X)</label>
+            <input type="text" id="player1" placeholder="Enter name">
+        </div>
+
+        <div>
+            <label for="player2">Player 2 (O)</label>
+            <input type="text" id="player2" placeholder="Enter name">
+        </div>
+    </div>
+
+    <button id="startButton">Start Game</button>
+    <h2 id="message">Enter names and start the game</h2>
+
+    <div id="gameboard">
+
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+
+    </div>
+
+    <button id="restartButton">Restart Game</button>
+    <script src="script.js"></script>
+
+</body>
+</html>
